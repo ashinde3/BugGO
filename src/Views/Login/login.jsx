@@ -10,14 +10,26 @@ export default () => {
         name:'',
         password:''
     })
-    
+
+    function inputChange(e) {
+        setFormInput({
+            ...formInput,
+            [e.target.name]: e.target.value
+        });
+    }
+
+    function submit(e) {
+        dispatch(signIn(formInput));
+        e.preventDefault();
+    }
+
     return(
         <div className='loginBG'>
             <form className='login-panel'>
                <h1> LOGIN </h1>
-               <input name='name' placeholder='Name' onChange={} value={}></input>
-               <input name='password' type='password' placeholder='Password' onChange={} value={}></input>
-               <button type='submit' onClick={}>Login</button>
+               <input name='name' placeholder='Name' onChange={inputChange} value={formInput.name}></input>
+               <input name='password' type='password' placeholder='Password' onChange={inputChange} value={formInput.password}></input>
+               <button type='submit' onClick={submit}>Login</button>
             </form>
         </div>
     );

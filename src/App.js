@@ -1,10 +1,12 @@
 import React from 'react';
+import Login from './Views/Login/login'
 //import './App.css';
+
 
 function App() {
   return (
     <div>
-      Hello..Welcome to bug tracker application
+      <Login />
     </div>
   );
 }
