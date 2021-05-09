@@ -1,6 +1,6 @@
 import React from 'react';
 import './bugCard.css';
-import PriorityController from '../../Controllers/priorityController';
+import PriorityController from '../../../Controllers/priorityController';
 
 const bug = (props) => {
     const {name,priority,version} = props.bug;
