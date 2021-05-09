@@ -2,7 +2,7 @@
   grid-template-columns: 20% 80%;
   display: grid;
   --prim-color: #264e70;
-  --card-color: #a2bfe6;
+  --card-color: #c5d8f0;
   color: white;
   margin: -8px;
 }

@@ -11,12 +11,17 @@ export default() => {
 
     useEffect(() => {
         dispatch(getBugs());
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [bugs.length < 1]) 
+
+    function BugClicked(name) {
+
+    }
 
     return(
         <div className='page-container'>
             {bugs.map((bug,key) => (
-                <BugCard key={key} bug={bug} />
+                <BugCard key={key} bug={bug} clicked={BugClicked} />
             ))}
         </div>
     );
