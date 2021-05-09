@@ -2,12 +2,13 @@
     background-color: var(--card-color);
     box-shadow: 2px 2px 2px var(--prim-color);
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     min-width: 275px;
     min-height: 200px;
+    border-radius: 8px;
 }
 
 .bug-card:hover {
     transition: all 0.3s;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
