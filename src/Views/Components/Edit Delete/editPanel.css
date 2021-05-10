@@ -1,0 +1,12 @@
+.edit-panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 8px;
+}
+
+.space {
+    width: 5px;
+    height: auto;
+    display: inline-block;
+}
