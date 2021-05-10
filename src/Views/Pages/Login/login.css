@@ -22,6 +22,11 @@
     text-align: center;
 }
 
+.login-panel button {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
 .login-panel h1 {
     width: 100%;
 }

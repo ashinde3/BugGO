@@ -27,9 +27,10 @@ export default () => {
         <div className='loginBG'>
             <form className='login-panel'>
                <h1> LOGIN </h1>
-               <input name='name' placeholder='Name' onChange={inputChange} value={formInput.name}></input>
-               <input name='password' type='password' placeholder='Password' onChange={inputChange} value={formInput.password}></input>
+               <input name='name' placeholder='Name' onChange={inputChange} value={formInput.name} required></input>
+               <input name='password' type='password' placeholder='Password' onChange={inputChange} value={formInput.password} required></input>
                <button type='submit' onClick={submit}>Login</button>
+               <button type='submit' onClick={submit}>Sign Up</button>
             </form>
         </div>
     );
