@@ -1,6 +1,6 @@
 .bug-card {
     background-color: var(--card-color);
-    box-shadow: 2px 2px 2px var(--prim-color);
+    box-shadow: 2px 2px 2px 2px var(--prim-color);
     text-align: center;
     margin: 50px;
     min-width: 275px;

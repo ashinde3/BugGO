@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import {useDispatch,useSelector} from 'react-redux';
-import bugSlice, {getBugs} from '../../Controllers/Redux/bugSlice';
+import {getBugs} from '../../Controllers/Redux/bugSlice';
 import BugCard from '../Components/Bug Card/bugCard';
 import BugView from '../Components/Bug view/bugView';
 
